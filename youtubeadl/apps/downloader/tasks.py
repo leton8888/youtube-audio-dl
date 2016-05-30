@@ -79,9 +79,9 @@ def start_conversion(url, audio_filename, video):
 
     result = subprocess.check_call([
         'youtube-dl',
-        '--no-playlist',
-        '--extract-audio',
-        '--audio-format', 'mp3',
+        # '--no-playlist',
+        # '--extract-audio',
+        '--format', 'best',
         '--output', temp_filepath,
         '--cache-dir', '/tmp/youtube-dl',
         url,
