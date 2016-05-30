@@ -19,7 +19,7 @@ def create_filename(value):
     if not filename:
         filename = uuid.uuid4()
 
-    return '{}.mp3'.format(filename)
+    return '{}.mp4'.format(filename)
 
 
 def get_video_info(url):

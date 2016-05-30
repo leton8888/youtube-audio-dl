@@ -2,7 +2,7 @@
 env=production
 
 [webservers]
-www.youtubeadl.com
+45.63.56.17
 
 [dbservers]
-www.youtubeadl.com
+45.63.56.17
